@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <nav>
             <img src="assets/paw.png" height=40px width=40px alt="paw logo"/>
-            <a href="#">First Link</a>
-            <a href="#">Second Link</a>
-            <a href="#">Third Link</a>
+            <a href="#">Home</a>
+            <a href="#">Resources</a>
+            <a href="#">About Us</a>
         </nav>
-        <div>
+        <div class="header-text">
             
             <h1>This website is awesome</h1>
             <p>
@@ -22,52 +23,57 @@
             </p>
             <button>Sign Up</button>
         </div> 
-        <img src="assets/cat-sleeping.jpg" height="400px" alt="cat sleeping on its back"/>
+        <img class="cat-nap" src="assets/cat-sleeping.jpg" height="300px" alt="cat sleeping on its back"/>
     </header>
 
-    <section>
+    <section class="first-section">
         <h1>Some random information.</h1>
-        <div>
+        <div class="cat-container">
             <figure>
                 <img src="assets/lost-cat.jpg" alt="A cat is lost" height="200px"/>
-                <figcaption>This is some subtext under an image</figcaption>
+                <figcaption>Lost cat</figcaption>
             </figure>
             <figure>
                 <img src="assets/back-cat.jpg" alt="A black cat" height="200px"/>
-                <figcaption>This is some subtext under an image</figcaption>
+                <figcaption>Black cat</figcaption>
             </figure>
             <figure>
                 <img src="assets/model-cat.jpg" alt="A cat turning back" height="200px"/>
-                <figcaption>This is some subtext under an image</figcaption>
+                <figcaption>Model cat</figcaption>
             </figure>
             <figure>
                 <img src="assets/eepy-cat.jpg" alt="An eepy cat" height="200px"/>
-                <figcaption>This is some subtext under an image</figcaption>
+                <figcaption>Eepy cat</figcaption>
             </figure>
         </div>
     </section>
 
-    <section>
-        <p>
-            Cats know how to obtain food without labor, 
+    <section class="second-section">
+        <p class="quote">
+            "Cats know how to obtain food without labor, 
             shelter without confinement, 
-            and love without penalties.
+            and love without penalties."
         </p>
-        <p>-W. L. George</p>
+        <p class="writer">-W. L. George</p>
     </section>
 
     <footer>
-        <div>
-            <div>
-                <h3>Call to action! It's time!</h3>
-                <p>Sign up to know more about us
-                    by clicking that button over there!
-                </p>
+
+        <div class="first-footer">
+            <div class="blue-container">
+                <div class="info">
+                    <h4>Call to action! It's time!</h4>
+                    <p>Sign up to know more about us
+                        by clicking that button over there!
+                    </p>
+                </div>
+                <button>Sign Up</button>
             </div>
-            <button>Sign Up</button>
+
         </div>
-        <div>
-            Copyright © The Pav Foundation 2024
+
+        <div class="second-footer">
+            Copyright © The Paw Foundation 2024
         </div>
     </footer>
 </body>
