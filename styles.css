@@ -34,12 +34,18 @@ nav>a{
     margin-left: 90px;
     margin-top: 20px;
     line-height: 45px;
+    font-size: large;
 }
 
 .cat-drip{
     position: relative;
     margin: 60px 0;
     border-radius: 10px;
+ }
+
+ .header-text h1{
+    font-size: xxx-large;
+    font-weight: bolder;
  }
 
  .header-text > button{
