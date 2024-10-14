@@ -14,8 +14,7 @@ nav{
 }
 
 nav >img{
-    margin-top: 15px;
-    margin-left: 14%;
+    margin-left: 11%;
     border: 2px solid black;
 }
 
@@ -25,35 +24,35 @@ nav>a{
     font-size: large;
     color: white;
     float: right;
-    margin: 20px 70px 20px 20px;
+    margin: 20px 90px 10px 20px;
 }
 
 .header-text{
-    padding: 100px;
-    width: 35%;
+    padding: 70px;
+    width: 45%;
     float: left;
     margin-left: 90px;
     margin-top: 20px;
-    line-height: 30px;
+    line-height: 45px;
 }
 
-.cat-nap{
+.cat-drip{
     position: relative;
-    margin: 40px 0;
+    margin: 60px 0;
     border-radius: 10px;
  }
 
  .header-text > button{
     margin: 30px 0;
-    padding: 10px 20px;
+    padding: 15px 30px;
     background-color: #3882f6;
     color: white;
     font-size: large;
-    font-weight: bold;
+    font-weight: normal;
     border-radius: 20px;
  }
 
- .first-section > h1{
+ .first-section h1{
     padding: 20px;
     margin: 20px;
     text-align: center;
@@ -68,7 +67,8 @@ nav>a{
 }
 
 figure img{
-    border: 2px solid #3882f6;
+    border: 3px solid #3882f6;
+    box-shadow: 10px 10px 5px #e6e9ec;
     border-radius: 8px;
 }
 
@@ -89,10 +89,12 @@ figure figcaption{
     font-size: 30px;
     font-style: italic;
     font-weight: lighter;
+    color: dimgrey;
 }
 
 .second-section .writer{
     float: right;
+    color: dimgrey;
 }
 
 .first-footer{
@@ -102,7 +104,7 @@ figure figcaption{
 }
 
 .blue-container{
-    width: 60%;
+    width: 50%;
     border-radius: 10px;
     background-color: #3882f6;
     padding: 30px 60px;
@@ -112,16 +114,19 @@ figure figcaption{
 
 .info{
     float: left;
+    width: 75%;
+    line-height: 25px;
 }
 
 .blue-container button{
-    float: right;
     padding: 10px ;
     font-size: medium;
     border-radius: 10px;
     background-color: #3882f6;
     border: 1px solid white;
     color: white;
+    margin-top: 15px;
+    margin-left: 50px;
 }
 
 .second-footer{
